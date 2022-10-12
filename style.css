@@ -1,0 +1,65 @@
+
+#circle{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  width: 500px;
+  height: 500px;
+  border-radius: 50%; 
+  border: black solid 10px;
+  overflow: hidden;
+  padding: 0px;
+  margin: 0px;
+}
+
+#start{
+  position: relative;
+  display: block;
+  width: 300px; 
+  text-align: center;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px; 
+}
+#green{
+  position: absolute;
+  background-color: green;
+  width: 250px;
+  height: 250px; 
+  bottom: 250;
+  right: 250; 
+}
+#red{
+  position: absolute;
+  background-color: red;
+  width: 250px;
+  height: 250px; 
+  bottom: 250;
+  right: 0; 
+}
+#yellow{
+  position: absolute;
+  background-color: yellow;
+  width: 250px;
+  height: 250px; 
+  bottom: 0;
+  right: 250; 
+}
+#blue{
+  position: absolute;
+  background-color: blue;
+  width: 250px;
+  height: 250px; 
+  bottom: 0;
+  right: 0; 
+}
+
+.animated{
+  opacity: 0.2;
+}
+
+h2{
+  text-align: center;
+}
